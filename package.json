@@ -1,0 +1,22 @@
+{
+  "name": "AdvancedBuckets",
+  "version": "1.0.0",
+  "description": "Sitecore Advanced Buckets",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-debug": "^2.1.2",
+    "gulp-msbuild": "^0.4.1",
+    "run-sequence": "^1.2.2",
+    "gulp-util": "^3.0.7",
+    "merge-stream": "^1.0.0",
+    "gulp-nuget-restore": "^0.5.0"
+  },
+  "devDependencies": {
+
+  },
+  "repository": {
+    "type": "git"
+  },
+  "private": true
+}

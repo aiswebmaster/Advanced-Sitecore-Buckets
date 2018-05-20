@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Helix.sln/.vs/Helix/v15
+/packages
+*.user
+/node_modules
+/Libraries
+**/code/obj
+**/code/bin

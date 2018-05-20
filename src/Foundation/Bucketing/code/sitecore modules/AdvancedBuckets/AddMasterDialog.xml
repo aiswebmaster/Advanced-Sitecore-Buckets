@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:p="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <AddMasterDialog>
+    <FormDialog id="Dialog" Icon="People/32x32/palette.png" Header="Add a New Item" Text="" OkButton="Create">
+      <CodeBeside Type="SitecoreMaster.Foundation.Bucketing.Dialogs.AddMasterDialog, SitecoreMaster.Foundation.Bucketing" />
+      <GridPanel Columns="2" Width="100%" Style="margin-bottom:20px;">
+        <GridPanel Columns="1">
+          <Label id="lblName">Select an Item Name: </Label>
+        </GridPanel>
+        <GridPanel Columns="1">
+          <Edit id="txtName" />
+        </GridPanel>
+      </GridPanel>
+      <GridPanel Columns="2" Width="100%" Style="margin-bottom:20px;">
+        <GridPanel Columns="1" id="gpCustomLabel">
+          
+        </GridPanel>
+        <GridPanel Columns="1" id="gpCustomInput">
+          
+        </GridPanel>
+      </GridPanel>
+    </FormDialog>
+  </AddMasterDialog>
+</control>

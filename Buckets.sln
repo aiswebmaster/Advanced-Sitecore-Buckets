@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{2B76A90E-ED47-44A1-B8D3-B171A710002B}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{C0B27DEE-72AD-4428-B60A-3CB9AE33FB24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{77DD02A7-EC87-4B3F-8533-5B595F07CB2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bucketing", "Bucketing", "{33C4D1BF-B1C7-481E-9E08-F2E9B67D79DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMaster.Foundation.Serialization", "src\Foundation\Serialization\code\SitecoreMaster.Foundation.Serialization.csproj", "{7FCBF00A-FE5D-4058-94C2-F70C92E6E7DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMaster.Foundation.Bucketing", "src\Foundation\Bucketing\code\SitecoreMaster.Foundation.Bucketing.csproj", "{20CE0251-4086-4EB2-B44A-A0AA4717E7FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FCBF00A-FE5D-4058-94C2-F70C92E6E7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCBF00A-FE5D-4058-94C2-F70C92E6E7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCBF00A-FE5D-4058-94C2-F70C92E6E7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCBF00A-FE5D-4058-94C2-F70C92E6E7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CE0251-4086-4EB2-B44A-A0AA4717E7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CE0251-4086-4EB2-B44A-A0AA4717E7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CE0251-4086-4EB2-B44A-A0AA4717E7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CE0251-4086-4EB2-B44A-A0AA4717E7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77DD02A7-EC87-4B3F-8533-5B595F07CB2A} = {C0B27DEE-72AD-4428-B60A-3CB9AE33FB24}
+		{33C4D1BF-B1C7-481E-9E08-F2E9B67D79DB} = {C0B27DEE-72AD-4428-B60A-3CB9AE33FB24}
+		{7FCBF00A-FE5D-4058-94C2-F70C92E6E7DD} = {77DD02A7-EC87-4B3F-8533-5B595F07CB2A}
+		{20CE0251-4086-4EB2-B44A-A0AA4717E7FA} = {33C4D1BF-B1C7-481E-9E08-F2E9B67D79DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CE0A44B-CA1A-4948-B004-D481B17E1E23}
+	EndGlobalSection
+EndGlobal
